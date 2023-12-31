@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color: white !important;
   background-image: url("Images/Background/iStock-1157674417.jpg");
   min-height: 500px;
   background-attachment: fixed;
@@ -23,6 +23,16 @@ p {
   line-height: 1;
   
 }
+
+p, label {
+  margin-bottom: 5px;
+  display: block;
+}
+
+p, input {
+  margin-bottom: 15px;
+  display: block;
+}
  
 li {
   font-size: 20px;
@@ -36,7 +46,7 @@ a {
 }
 
 button {
-  background-color: #965849; /* Green */
+  background-color: #965849; 
   border: none;
   color: white;
   padding: 15px 32px;
@@ -45,6 +55,11 @@ button {
   display: inline-block;
   font-size: 16px;
   margin-top: 50px;
+  transition-duration: 1000ms;
+}
+
+button:hover {
+  background-color: #5b3b34;
 }
 
 div {
@@ -100,4 +115,9 @@ footer {
 .column img {
   margin-top: 8px;
   vertical-align: middle;
+
+}
+
+i {
+
 }
